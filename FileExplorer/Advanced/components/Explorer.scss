@@ -1,12 +1,18 @@
 .folder {
-    cursor: pointer;
-    user-select: none;
-    margin-top: 6px;
-  }
-  
-  .file {
-    cursor: default;
-    user-select: none;
-    margin-top: 4px;
-  }
-  
+  cursor: pointer;
+  user-select: none;
+  margin-top: 6px;
+  display: flex;
+  width: 300px;
+  background-color: lightgrey;
+  justify-content: space-between;
+}
+
+.file {
+  cursor: default;
+  user-select: none;
+  margin-top: 4px;
+}
+
+.inputFiled {
+}
